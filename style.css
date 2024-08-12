@@ -1,4 +1,36 @@
-body{
-    background: white;
-    color: black;
+body {
+  background: white;
+  color: black;
+}
+
+.divs {
+  padding: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  border: 1px solid red;
+}
+@media (min-width: 768px) {
+  .divs {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .divs {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .divs {
+    width: 1170px;
+  }
+}
+
+button {
+  margin: 30px;
+  padding: 5px;
+  background-color: rgb(223, 113, 113);
+  color: white;
+  border: inset;
 }
